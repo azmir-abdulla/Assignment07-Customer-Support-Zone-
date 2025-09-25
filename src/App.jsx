@@ -1,18 +1,16 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-
+import Cards from './components/Cards';
+import Tickets from './components/Tickets';
 function App() {
- 
+
 
   return (
     <>
       <Navbar></Navbar>
-      <div>
-        <div className='rounded-lg h-7 bg-red-500 p-7 text-white'>
-          <h1>0</h1>
-        </div>
-      </div>
+      <Cards></Cards>
+      <Tickets></Tickets>
       <Footer></Footer>
     </>
   )

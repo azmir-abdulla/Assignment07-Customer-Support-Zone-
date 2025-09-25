@@ -17,7 +17,7 @@ const Navbar = () => {
             <li><a href="#" className="text-gray-600">Download</a></li>
             <li><a href="#" className="text-gray-600">Contact</a></li>
           </ul>
-          <button className="bg-purple-600 text-white px-4 py-2 rounded-lg hover:cursor-pointer">
+          <button className="  hover:cursor-pointer bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white px-4 py-2 rounded-md">
             + New Assignment
           </button>
         </div>
