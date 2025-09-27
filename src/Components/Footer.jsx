@@ -41,10 +41,14 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-semibold mb-2">Social Links</h4>
                         <ul className="space-y-1 text-sm">
-                            <li>@CS — Ticket System</li>
-                            <li>@CS — Ticket System</li>
-                            <li>@CS — Ticket System</li>
-                            <li>support@cs.com</li>
+                            <li><i className="fa-brands fa-x-twitter bg-white text-black text-lg px-1 py-1 rounded-[50px]"></i>
+                                @CS — Ticket System</li>
+                            <li><i className="fa-brands fa-linkedin-in bg-white text-black text-lg px-1 py-1 rounded-[50px]"></i>
+                                @CS — Ticket System</li>
+                            <li><i className="fa-brands fa-facebook-f bg-white text-black text-lg px-1 py-1 rounded-[50px]"></i>
+                                @CS — Ticket System</li>
+                            <li><i className="fa-regular fa-envelope bg-white text-black text-lg px-1 py-1 rounded-[50px]"></i>
+                                support@cs.com</li>
                         </ul>
                     </div>
                 </div>
