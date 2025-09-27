@@ -34,13 +34,13 @@ const Navbar = () => {
               <ul
                 tabIndex={0}
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Home</a></li>
-                <li><a>FAQ</a></li>
-                <li><a>Changelog</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Download</a></li>
-                <li><a>Contact</a></li>
-                <li>
+                <li className='inter text-base '><a>Home</a></li>
+                <li className='inter text-base '><a>FAQ</a></li>
+                <li className='inter text-base '><a>Changelog</a></li>
+                <li className='inter text-base '><a>Blog</a></li>
+                <li className='inter text-base '><a>Download</a></li>
+                <li className='inter text-base '><a>Contact</a></li>
+                <li className='inter text-base '>
                   <button className="btn mt-2 w-full bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white border-0">
                     + New Ticket
                   </button>
@@ -49,12 +49,12 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:flex items-center gap-6">
               <ul className="menu menu-horizontal px-1 text-gray-600">
-                <li><a>Home</a></li>
-                <li><a>FAQ</a></li>
-                <li><a>Changelog</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Download</a></li>
-                <li><a>Contact</a></li>
+                <li className='inter text-base text-black'><a>Home</a></li>
+                <li className='inter text-base text-black'><a>FAQ</a></li>
+                <li className='inter text-base text-black'><a>Changelog</a></li>
+                <li className='inter text-base text-black'><a>Blog</a></li>
+                <li className='inter text-base text-black'><a>Download</a></li>
+                <li className='inter text-base text-black'><a>Contact</a></li>
               </ul>
               <button className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white border-0">
                 + New Ticket
