@@ -21,8 +21,8 @@ const Tickets = ({ tickets, handleAlert }) => {
                             return (
                                 <div onClick={() => handleAlert(ticket.title)} key={ticket.id} className="p-4 border rounded-sm shadow-sm bg-white cursor-pointer">
                                     <div className='flex justify-between items-center mb-2'>
-                                        <h3 className="inter-500 text-[#001931] text-sm md:text-lg">{ticket.title}</h3>
-                                        <span className={`md:px-3 md:py-1  rounded-[50px] text-sm px-1.5 py-1  ${ticket.status == "Open" ? " bg-[#B9F8CF] text-[#02A53B] " : "bg-[#F8F3B9] text-[#FEBB0C] "
+                                        <h3 className="inter-500 text-[#001931] text-[12px] md:text-lg">{ticket.title}</h3>
+                                        <span className={`md:px-3 md:py-1  rounded-[50px] text-[12px] px-1.5 py-1  ${ticket.status == "Open" ? " bg-[#B9F8CF] text-[#02A53B] " : "bg-[#F8F3B9] text-[#FEBB0C] "
                                             }`}> <span className='fa-solid fa-circle'></span> {ticket.status}</span>
                                     </div>
                                     <p className='text-[#627382] text-base'>{ticket.description}</p>
