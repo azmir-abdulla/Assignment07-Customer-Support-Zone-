@@ -39,16 +39,32 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h4 className="text-white font-semibold mb-2">Social Links</h4>
-                        <ul className="space-y-1 text-sm">
-                            <li><i className="fa-brands fa-x-twitter bg-white text-black text-lg px-1 py-1 rounded-[50px]"></i>
-                                @CS — Ticket System</li>
-                            <li><i className="fa-brands fa-linkedin-in bg-white text-black text-lg px-1 py-1 rounded-[50px]"></i>
-                                @CS — Ticket System</li>
-                            <li><i className="fa-brands fa-facebook-f bg-white text-black text-lg px-1 py-1 rounded-[50px]"></i>
-                                @CS — Ticket System</li>
-                            <li><i className="fa-regular fa-envelope bg-white text-black text-lg px-1 py-1 rounded-[50px]"></i>
-                                support@cs.com</li>
+                        <h4 className="text-lg font-semibold mb-2">Social Links</h4>
+                        <ul className="space-y-3 text-sm text-gray-300">
+                            <li className="flex items-center gap-2">
+                                <span className="w-8 h-8 flex justify-center items-center rounded-full bg-white text-black">
+                                    <i className="fa-brands fa-x-twitter text-lg"></i>
+                                </span>
+                                @CS — Ticket System
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span className="w-8 h-8 flex justify-center items-center rounded-full bg-white text-black">
+                                    <i className="fa-brands fa-linkedin-in text-lg"></i>
+                                </span>
+                                @CS — Ticket System
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span className="w-8 h-8 flex justify-center items-center rounded-full bg-white text-black">
+                                    <i className="fa-brands fa-facebook-f text-lg"></i>
+                                </span>
+                                @CS — Ticket System
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span className="w-8 h-8 flex justify-center items-center rounded-full bg-white text-black">
+                                    <i className="fa-regular fa-envelope text-lg"></i>
+                                </span>
+                                support@cs.com
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -1,24 +1,27 @@
 import './App.css'
+
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Cards from './components/Cards';
-import Tickets from './components/Tickets';
+import Main from './components/Main'
+
+
 import { Suspense } from 'react';
 
-const tickets = fetch('./tickets.json').then(res => res.json());
+
+
 
 
 function App() {
-
-
+  const tickets = fetch('./tickets.json').then(res => res.json());
+  
   return (
     <>
       <Navbar></Navbar>
-      <Cards></Cards>
-
-
+      
+    
       <Suspense fallback={<div className='text-center mt-20 text-2xl'>Tickets Are Loading...</div>}>
-        <Tickets tickets={tickets}></Tickets>        
+        <Main tickets={tickets} ></Main>
       </Suspense>
 
 
@@ -27,4 +30,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
